@@ -2,20 +2,16 @@ package JavaBasics;
 
 public class task11mar {
     public static void main(String[] args) {
-        int a = 9;
-        System.out.printf("You variable is %d",a);
-        System.out.printf("You variable is %d",a*1);
-        System.out.printf("You variable is %d",a*2);
-        System.out.printf("You variable is %d",a*3);
-        System.out.printf("You variable is %d",a*4);
-        System.out.printf("You variable is %d",a*5);
-        System.out.printf("You variable is %d",a*6);
-        System.out.printf("You variable is %d",a*7);
-        System.out.printf("You variable is %d",a*8);
-        System.out.printf("You variable is %d",a*9);
-        System.out.printf("You variable is %d",a*10);
-
-
-
+        int num = 9;
+        System.out.printf("%d*1=%d\n",num,num*1);
+        System.out.printf("%d*2=%d\n",num,num*2);
+        System.out.printf("%d*3=%d\n",num,num*3);
+        System.out.printf("%d*4=%d\n",num,num*4);
+        System.out.printf("%d*5=%d\n",num,num*5);
+        System.out.printf("%d*6=%d\n",num,num*6);
+        System.out.printf("%d*7=%d\n",num,num*7);
+        System.out.printf("%d*8=%d\n",num,num*8);
+        System.out.printf("%d*9=%d\n",num,num*9);
+        System.out.printf("%d*10=%d\n",num,num*10);
     }
 }
