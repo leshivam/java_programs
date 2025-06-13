@@ -6,8 +6,10 @@ public class Boolean {
         boolean hasFunds = false;
 
         if (isLoggedIn) {
+            // User is logged in, perform actions
             System.out.println("User is logged in.");
         } else {
+            // User is not logged in, redirect to login
             System.out.println("User is not logged in.");
         }
 
@@ -21,5 +23,4 @@ public class Boolean {
         boolean isAdult = age >= 18;
         System.out.println("Is Adult? " + isAdult);
     }
-}
 }
